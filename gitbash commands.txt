@@ -1,0 +1,99 @@
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0
+$  git push --help
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0
+$ git init
+Initialized empty Git repository in E:/BootCamp/Level 0/.git/
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        All Elements.html
+        EXERCISE 1.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git add .
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git status
+On branch master
+
+No commits yet
+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 Personal Access Token
+
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   All Elements.html
+        new file:   EXERCISE 1.html
+
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git comit -m "I am adding my html code to github"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git commit -m "I am adding my html code to github"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'kuchibhotla@LAPTOP-4M95A0FA.(none)')
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git config --global user.name "Vasanthamalika"
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git config --global user.email "malika.sagar@gmail.com"
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git commit -m "I am adding my html code to github"
+[master (root-commit) 1cb93e2] I am adding my html code to github
+ 2 files changed, 99 insertions(+)
+ create mode 100644 All Elements.html
+ create mode 100644 EXERCISE 1.html
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git remote add origin https://github.com/Vasanthamalika/Level-0.git
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git push -u origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$ git push -u origin master
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.53 KiB | 521.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vasanthamalika/Level-0.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+kuchibhotla@LAPTOP-4M95A0FA MINGW64 /e/BootCamp/Level 0 (master)
+$

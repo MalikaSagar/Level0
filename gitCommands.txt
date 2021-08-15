@@ -1,0 +1,16 @@
+git init --> to initialize git repository
+git add. --> add all the files in the folder to git
+git commit -m "commit message" --> commit to git repo with a message
+git remote add origin "githum link" --> point your local git repo to remote location
+git push -u origin master --> to push your local code to be remote githum repo, u means up screen
+--ubuntu
+ls is list the files
+clear --> clear your console.
+git status --> it will show status of your files in git repo
+git clone "repo link" -->to clone the repo from 
+history --> to show list of commands
+git pull --> (Download) pull latest code to my local from remote repo
+git rm --cached filename -->git remome file from staging
+git ls-files --> show the list of files in staging.
+git checkout -b "branchname" --> create a new branchname
+.gitignore --> to ignore a specific file.

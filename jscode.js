@@ -58,13 +58,15 @@ console.log(5+2*4-2);
 
 //pre vs post increment operator with the help of oerator precedence
 var j=10;
+j++;
 console.log(j++ *5);
 console.log(j);
 //in first steps, original value with out increment will participate in arithmetic operation.
 //in second step, value will be inceement
 
 var z=5;
-console.log(++z * 10);
+z++;
+console.log(z++ * 10);
 console.log(z);
 
 //decrement operator

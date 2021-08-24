@@ -10,28 +10,46 @@ h2  {
     font-size: 32px;
     font-family: "Segoe UI",Arial,sans-serif;
     font-weight: 400;
-    margin: 10px;
+    margin-left: 30px;
 
 }
 li  {
     display: list-item;
     text-align: -webkit-match-parent;
     font-family: "Segoe UI",Arial,sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 5px;
    
     
 }
-ul  {
+div  {
     list-style-type: disc;
-    margin: 30px;
+    margin: 20px;
+    border: 5px solid powderblue; border-radius: 25px;
+    float: left;
     
 }
 .Intro  {
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 28px;
 }
-div {
-    background-color: rgb(206, 240, 206);
-    padding: 10px;
-    float: left;
-}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

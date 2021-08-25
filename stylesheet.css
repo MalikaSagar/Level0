@@ -1,10 +1,11 @@
 h1  {
-    background-color: rgb(247, 232, 204); height: 75px; 
+    background-color: rgb(247, 232, 204); height: 50px; 
     color: blue;
     text-align: center;
     font-family: "Segoe UI",Arial,sans-serif;
-    font-weight: 400;
-    margin: 10px 0;
+    font-weight: bold;
+    padding-top: 15px; padding-bottom: 15px;
+    
 }
 h2  {
     font-size: 32px;
@@ -32,6 +33,7 @@ div  {
 .Intro  {
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 28px;
+    text-align: center;
 }
 a:link {
     color: white;

@@ -72,3 +72,86 @@ console.log(z);
 //decrement operator
 var h=100;
 console.log(--h);
+
+//the += operator
+var x = 10;
+x += 5;
+console.log(x);
+
+//The + operator can also be used to add (concatenate) strings.
+let text1 = "I";
+let text2 = "am";
+let text3 = "Mrs Vasantha";
+let text4 = text1 + " " + text2 + " " + text3
+console.log(text4);
+
+//The += assignment operator can also be used to add (concatenate) strings:
+let text5 = "What a very ";
+text5 += "nice day";
+console.log(text5)
+
+//Some more operators
+//Not operator gives boolean output. i.e. true or false
+// ! - not symbol
+console.log(!true);
+console.log(!false);
+console.log(!0);
+
+//o means flase, false means false, undefined is also false
+console.log(!undefined);
+
+//== vs === ---> to validate whether L.H.S is equal to R.H.S
+console.log(2 == 3); //false
+console.log(0 == false); //true because JS CONSIDERS 0 AS FALSE VALUE
+console.log(0 === false); 
+
+//comparison operators
+console.log(2<3);
+console.log(5>3);
+console.log(4<=2+2);
+console.log(5>=2.5+2.5);
+
+//And or Or operator
+//When both conditions are true, then only the output will be true
+//When one of the conditions satisfies then the output will be true.
+
+console.log(10 && 9); //if first one is a truethy value , return second one.
+console.log(0 && true);//if first one is a falsy value, return first one.
+
+/* true && false
+false && false
+false && true */
+
+//OR 
+//When one of the condition is satisfies then the out will be true.
+console.log(10 || 9);
+console.log(0 || true);
+console.log(9+7 || 9-9);
+
+//Number
+//1. to extract number from a string
+console.log(Number("1500"));
+console.log(Number.parseInt(450.8247));
+console.log(Number("AP6801")); // NaN --> not a number
+console.log(isNaN("AP6801"));
+
+//Uppercase and lowerCase
+var strg1 = "ABC";
+console.log(strg1.toLowerCase());
+console.log("verygood".toUpperCase());
+
+//objects
+//Two ways to access JavaScript object properties
+//using "." operator
+//using "[]" operator
+var DOB = {"Ram":"30-02-1987", "Jay":"20-12-1992"};
+console.log(DOB.Ram);
+
+//call by value vs vall by reference
+var sampleobj1={"name":"Raja"};
+var sampleobj2=sampleobj1; //JavaScript passes the address not the value
+sampleobj2.name="Vasantha";
+console.log(sampleobj2);
+console.log(sampleobj1);
+ 
+

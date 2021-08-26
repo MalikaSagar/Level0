@@ -1,5 +1,5 @@
 h1  {
-    background-color: rgb(247, 232, 204); height: 50px; 
+    background-color: rgb(0, 128, 0, .3); 
     color: blue;
     text-align: center;
     font-family: "Segoe UI",Arial,sans-serif;
@@ -31,6 +31,7 @@ div  {
     
 }
 .Intro  {
+    background-color: rgb(247, 232, 204); height: 50px;
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 28px;
     text-align: center;
@@ -55,3 +56,33 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+  /*-webkit-text-size-adjust: 100%;
+  pointer-events: auto;
+  box-sizing: border-box;
+  display: table;
+  cursor: pointer;
+  font-family: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  border: 0 none transparent;
+  outline-width: 0;
+  font-style: initial;
+  white-space: nowrap;
+  user-select: none;
+  vertical-align: middle;
+  text-align: center;
+  align-self: flex-start;
+  position: relative;
+  border-radius: 50px !important;
+  stroke: none;
+  border-width: 0;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  letter-spacing: 2px;
+  background-image: none;
+  margin: 30px auto 0 0;
+  padding: 15px 46px 15px 45px;
+  color: #ffffff !important;
+  background-color: #f49ea8 !important;*/

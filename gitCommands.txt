@@ -14,3 +14,6 @@ git rm --cached filename -->git remome file from staging
 git ls-files --> show the list of files in staging.
 git checkout -b "branchname" --> create a new branchname
 .gitignore --> to ignore a specific file.
+
+bigrock.in
+godaddy.com

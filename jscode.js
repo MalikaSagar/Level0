@@ -153,5 +153,38 @@ var sampleobj2=sampleobj1; //JavaScript passes the address not the value
 sampleobj2.name="Vasantha";
 console.log(sampleobj2);
 console.log(sampleobj1);
+
  
+//conditionals
+//if rains take umbrella
+//if number is>0 print it
+var age=61;
+if(age>18 && age>60){
+    console.log("Major");
+}
+
+else if(age>=60){
+    console.log("Senior Citizen");
+}
+else{
+    console.log("Minor");
+}
+
+//for loop
+//to iterate till condition is met..
+var count = 100;
+for (var i=0; i<count; i++){
+console.log("picked"+" "+ i+"th apple");
+}
+//program 1 to print whole numbers from 0 to 100
+for (var j=0; j<=100; j++){
+    console.log(j);
+}
+
+//program to print even numbers
+for (var k=2; k<=100; k++){
+    if (k%2 == 0) {
+        console.log(k);
+    }
+}
 

@@ -187,4 +187,25 @@ for (var k=2; k<=100; k++){
         console.log(k);
     }
 }
+//functions
+//boilerplate code
+//self documented code
 
+var z=x+y;
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(10,5));//10 and 5 are called arguments
+console.log(sum(0,-1));
+
+//callbacks
+//after execution of one function based on the results of that function do another function.
+var initialBalance =15000;
+var balanceCredit = function(depositAmount, smsFunction){
+    smsFunction(initialBalance+depositAmount);
+
+}
+var sendSMS = function(newBal){
+    console.log("YOUR NEW ACCOUNT BALANCE IS ...."+newBal);
+}
+balanceCredit(4000,sendSMS);

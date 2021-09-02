@@ -1,0 +1,14 @@
+{
+  "name": "servercode",
+  "version": "1.0.0",
+  "description": "\"This is my first server code using express\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Vasantha\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

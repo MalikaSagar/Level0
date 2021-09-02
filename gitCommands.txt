@@ -17,3 +17,6 @@ git checkout -b "branchname" --> create a new branchname
 
 bigrock.in
 godaddy.com
+
+heroku
+postman

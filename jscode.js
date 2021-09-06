@@ -209,3 +209,108 @@ var sendSMS = function(newBal){
     console.log("YOUR NEW ACCOUNT BALANCE IS ...."+newBal);
 }
 balanceCredit(4000,sendSMS);
+
+function isPrime(num) {
+    for ( var i = 2; i < num; i++ ) {
+        if ( num % i === 0 ) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function display(n) {
+    var arr = [2];
+    for ( var i = 3; i < n; i+=2 ) {
+        if ( isPrime(i) ) {
+            arr.push(i);
+        }
+    }
+    console.log("The prime numbers between 1 and 100 are " + arr); // use arr result on your own
+}
+
+display(1000);
+
+// initialize the array first
+var numbers = [], primes = [], maxNumber = 100;
+
+for(var i = 2;i<=maxNumber;i++){
+ numbers.push(i);   
+}
+
+while(numbers.length){
+    primes.push(numbers.shift());
+    numbers = numbers.filter(
+        function(i){return i%primes[primes.length-1]!=0}
+    );
+}
+
+console.log("The first 100 Prime Numbers are " + primes);
+
+
+//Since these are integers, you can also use any number of clever tricks1 to swap without using a third variable. 
+//For instance you can use the bitwise XOR operator
+
+let a = 20, b = 10;
+[a, b] = [b, a];
+console.log(`${a} ${b}`);
+
+let c = 1, d = 2;
+c = c ^ d;
+d = c ^ d;
+c = c ^ d;
+    
+console.log('c is now:', c);
+console.log('d is now:', d);
+
+//Fibonacci series is a series that generates subsequent series of numbers by the addition of the two previous numbers. ... 
+//The first two terms of the Fibonacci series are zero and one, respectively.
+var i;
+var fib = []; // Initialize array!
+
+fib[0] = 0;
+fib[1] = 1;
+for (i = 2; i <= 50; i++) {
+  // Next fibonacci number = previous + one before previous
+  // Translated to JavaScript:
+  fib[i] = fib[i - 2] + fib[i - 1];
+  console.log(fib[i]);
+}
+
+var e = 1,
+    f = 2,
+    tmp;
+tmp = e;
+e = f;
+f = tmp;
+console.log(e,f);
+
+var x = 0;
+var y = 1;
+var z, i, n;
+n=10;
+for (i=2; i<=n; i++){
+    z=x+y;
+    console.log(z);
+    x=y;
+    y=z;
+}
+
+//declare the fib variable to be an array in the first place (such as var fib = [] or var fib = new Array()) and 
+//If you use an array to store the fibonacci sequence, you do not need the other auxiliar variables (x,y,z) :
+var fib = [0, 1];
+for(var i=fib.length; i<20; i++) {
+    fib[i] = fib[i-2] + fib[i-1];
+}
+console.log("The febonacci sequence is " + fib); 
+
+//Algorithm: The steps to convert from Celsius to Fahrenheit are as follows:
+//Multiply Celsius value by 9/5
+//Add 32 to Celsius value
+
+function convertToF(celsius) {
+    let fahrenheit = celsius * 9/5 + 32  // make the given fahrenheit variable equal the given celsius value. multiply the given celsius value by 9/5 then add 32 
+    console.log(fahrenheit) // return the variable fahrenheit as the answer
+  }
+  
+  convertToF(36.88);
